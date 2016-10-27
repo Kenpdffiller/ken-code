@@ -1,0 +1,95 @@
+<?php
+$json =<<<CONFIG
+  IMAGE_SIGNATURE_BACK: "Back",
+  IMAGE_SIGNATURE_UPLOADER_BTN: "Select an Image",
+  IMAGE_SIGNATURE_TITLE_UPLOADER: "Drag and Drop Your Image Here",
+  IMAGE_SIGNATURE_DESC_UPLOADER: "Use the button below to upload your signature to the Signature Wizard. PDFfiller supports <b>JPG</b>, <b>GIF</b> and <b>PNG</b> formats. Just so you know, Max file size: 15 Mb.",
+  IMAGE_SIGNATURE_BTN_NEXT: "Next",
+  IMAGE_SIGNATURE_BTN_RETAKE_SHAPSHOT: "Retake a Snapshot",
+  IMAGE_SIGNATURE_BTN_TAKE_SNAPSHOT: "Take a Snapshot",
+  IMAGE_SIGNATURE_INITIAL_IMAGE_HEADER_TITLE: "Your Saved Images",
+  IMAGE_SIGNATURE_UPLOADER_HEADER_TITLE: "Upload Your Image",
+  IMAGE_SIGNATURE_CAPTURE_HEADER_TITLE: "Capture Your Image",
+  IMAGE_SIGNATURE_UPLOADER_TEXT: "Uploading an Image",
+  IMAGE_SIGNATURE_BIG_FOOTER_BTN_UPLOADER_TITLE: "Upload Your Image",
+  IMAGE_SIGNATURE_BIG_FOOTER_BTN_UPLOADER_DESC: "If you already have an image on your computer that you would like to use, you can upload this image from here. It will appear on the list along side any images that you captured with your computer’s camera.",
+  IMAGE_SIGNATURE_BIG_FOOTER_BTN_CAPTURE_TITLE: "Capture Your Image",
+  IMAGE_SIGNATURE_BIG_FOOTER_BTN_CAPTURE_DESC: "When you choose this option, the program identifies your computer’s camera, and you can see a live preview of the image that you can use, and decide when to capture an image.",
+  IMAGE_SIGNATURE_INITIAL_TITLE: "You do not have any saved Images",
+  IMAGE_SIGNATURE_INITIAL_TEXT: "Please select an option from the bottom to add your image.",
+  IMAGE_SIGNATURE_BTN_SAVE: "Save",
+  IMAGE_SIGNATURE_BTN_DONE: "Done",
+  IMAGE_SIGNATURE_BTN_OK: "OK",
+  IMAGE_SIGNATURE_BTN_SEND: "Send",
+  IMAGE_SIGNATURE_BTN_CLEAN: "Clean",
+  IMAGE_SIGNATURE_BTN_CANCEL: "Cancel",
+  IMAGE_SIGNATURE_BTN_RESEND: "Resend",
+  IMAGE_SIGNATURE_BTN_ADD_ONE_MORE: "Add one more",
+  IMAGE_SIGNATURE_BTN_SAVE_AND_USE: "Save and Use",
+  IMAGE_SIGNATURE_BTN_ADD_NEW_SING: "Add New Signature",
+  IMAGE_SIGNATURE_TYPE_PREVIEW_TITLE: "type",
+  IMAGE_SIGNATURE_TYPE_PREVIEW_TEXT: "Easy way to create your signature or initials. <b>Type</b> your full name, and click <b>Sign</b>. Your signature will appear in a handwritten font style in the Signature Wizard and be ready for use.",
+  IMAGE_SIGNATURE_TYPE_LIST_DRAW_TITLE: "<b>Draw</b>",
+  IMAGE_SIGNATURE_TYPE_LIST_DRAW_DESCRIPTION: "Easily draw your signature using the mouse or trackpad",
+  IMAGE_SIGNATURE_TYPE_LIST_QR_TITLE: "<b>Scan a QR Code</b>",
+  IMAGE_SIGNATURE_TYPE_LIST_QR_DESCRIPTION: "Scan a QR Code using any mobile device to open a page where you can draw your signature. Your signature will appear in the Signature Wizard and be ready for use.",
+  IMAGE_SIGNATURE_TYPE_LIST_SMS_TITLE: "<b>Use Mobile via SMS</b>",
+  IMAGE_SIGNATURE_TYPE_LIST_SMS_DESCRIPTION: "When you use this option, <strong>PDFfiller</strong> sends you a link via SMS. Just tap that link to easily draw a signature on your mobile device. Your signature will appear in the Signature Wizard and be ready for use.",
+  IMAGE_SIGNATURE_TYPE_LIST_EMAIL_TITLE: "<b>Use Mobile via Email</b>",
+  IMAGE_SIGNATURE_TYPE_LIST_EMAIL_DESCRIPTION: "When you use this option, PDFfiller sends you a link via Email. Just tap that link on your mobile device to easily draw a signature right there. Your signature will appear in the Signature Wizard and be ready for use.",
+  IMAGE_SIGNATURE_TYPE_LIST_UPLOAD_TITLE: "<b>Upload</b>",
+  IMAGE_SIGNATURE_TYPE_LIST_UPLOAD_DESCRIPTION: "Easily upload the image of your signature from a computer. Your uploaded signature will appear in the Signature Wizard and be ready for use.",
+  IMAGE_SIGNATURE_TYPE_LIST_CAMERA_TITLE: "<b>Capture</b>",
+  IMAGE_SIGNATURE_TYPE_LIST_CAMERA_DESCRIPTION: "Allow the access to your camera and take a photo of your signature. Just sign the paper and show to the camera, so your signature fits inside the box and click Take Snapshot. Your signature will appear in the Signature Wizard and be ready for use.",
+  IMAGE_SIGNATURE_INITIAL_SIGNATURE_HEADER_TITLE: "Signature Wizard",
+  IMAGE_SIGNATURE_TYPE_BTN_SELECT_STYLE: "Select a Style",
+  IMAGE_SIGNATURE_GALLERY_HEADER_TITLE: "Signature Wizard",
+  IMAGE_SIGNATURE_QR_HEADER_TITLE: "Scan a QR Code <span>via mobile</span>",
+  IMAGE_SIGNATURE_EMAIL_HEADER_TITLE: "Use Mobile via Email",
+  IMAGE_SIGNATURE_SMS_HEADER_TITLE: "Use Mobile via SMS",
+  IMAGE_SIGNATURE_DRAW_HEADER_TITLE: "Draw Your Signature",
+  IMAGE_SIGNATURE_QR_CONTENT_TEXT: "Scanning this QR Code will open a new screen on your mobile device where you can easily draw your signature.",
+  IMAGE_SIGNATURE_CONTENT_TITLE_LIST: "USAGE:",
+  IMAGE_SIGNATURE_QR_CONTENT_LIST_ONE: "Scan a QR Code.",
+  IMAGE_SIGNATURE_QR_CONTENT_LIST_TWO: "Draw the signature or type your initials from any mobile device.",
+  IMAGE_SIGNATURE_QR_CONTENT_LIST_THREE: "Click Done to save your signature.",
+  IMAGE_SIGNATURE_QR_CONTENT_LIST_FOUR: "Find your signature in the Signature Wizard.",
+  IMAGE_SIGNATURE_EMAIL_CONTENT_TEXT: "Using Mobile Via Email allows you to get a link via Email on your mobile device and easily draw your signature right there.",
+  IMAGE_SIGNATURE_EMAIL_CONTENT_LIST_ONE: "Enter your email address.",
+  IMAGE_SIGNATURE_EMAIL_CONTENT_LIST_TWO: "Find an email from PDFfiller on your mobile device.",
+  IMAGE_SIGNATURE_EMAIL_CONTENT_LIST_THREE: "Draw the signature or type your initials from any mobile device.",
+  IMAGE_SIGNATURE_EMAIL_CONTENT_LIST_FOUR: "Find your signature in the Signature Wizard.",
+  IMAGE_SIGNATURE_SMS_CONTENT_TEXT: "Using Mobile Via SMS allows you to get a link via SMS and easily draw a signature right on your mobile device.",
+  IMAGE_SIGNATURE_SMS_CONTENT_LIST_ONE: "Enter your phone number.",
+  IMAGE_SIGNATURE_SMS_CONTENT_LIST_TWO: "Find a text message from PDFfiller on your mobile device.",
+  IMAGE_SIGNATURE_SMS_CONTENT_LIST_THREE: "Draw the signature or type your initials from any mobile device.",
+  IMAGE_SIGNATURE_SMS_CONTENT_LIST_FOUR: "Find your signature in the Signature Wizard.",
+  IMAGE_SIGNATURE_ROTATE_PHONE: "Please Rotate Your Phone",
+  IMAGE_SIGNATURE_WEBCAM_TEXT: "Sign the paper and show to the camera, so your signature fits inside the white box and click the Take Snapshot button. Your signature will appear in the Signature Wizard and be ready for use.",
+  IMAGE_SIGNATURE_MOBILE_DRAW_WELCOME_CONTENT_TITLE: "Welcome to PDFfiller Mobile Signature.",
+  IMAGE_SIGNATURE_MOBILE_DRAW_WELCOME_CONTENT_TEXT: "Sign the screen with your finger on the next page, and click Done to save your signature to the Signature Wizard.",
+  IMAGE_SIGNATURE_LOADER_SIGN: "Awaiting Signature...",
+  IMAGE_SIGNATURE_MOBILE_DRAW_PHONE_PLACEHOLDER: "Phone number",
+  IMAGE_SIGNATURE_MOBILE_DRAW_EMAIL_PLACEHOLDER: "Email",
+  IMAGE_SIGNATURE_CONGRATULATIONS_TITLE: "Congratulations!",
+  IMAGE_SIGNATURE_CONGRATULATIONS_DESCRIPTION: "Your signature has been successfully saved to your account.",
+
+CONFIG;
+
+$arr = explode("\",\n", $json);
+$consts = [];
+foreach ( $arr as $v ) {
+  $row = explode(': "', $v);
+  if ( !empty($v) ) {
+    $consts[] = ['uid' => trim($row[0]), 'text' => trim($row[1])];
+  }
+}
+Header("Content-type: text/plain;charset=utf8");
+$res = var_export($consts,true );
+
+$res = preg_replace("/[0-9]+\s=>\s\n/ims", "", $res);
+$res = preg_replace("/array\s\(/ims", "[", $res);
+$res = preg_replace("/\)\,/ims", "],", $res);
+$res = preg_replace("/\)$/ims", "];", $res);
+
+echo  "\$migrationsConstants = " . $res;
