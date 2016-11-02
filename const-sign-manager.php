@@ -66,7 +66,7 @@ $json =<<<CONFIG
   IMAGE_SIGNATURE_SMS_CONTENT_LIST_THREE: "Draw the signature or type your initials from any mobile device.",
   IMAGE_SIGNATURE_SMS_CONTENT_LIST_FOUR: "Find your signature in the Signature Wizard.",
   IMAGE_SIGNATURE_ROTATE_PHONE: "Please Rotate Your Phone",
-  IMAGE_SIGNATURE_WEBCAM_TEXT: "Sign the paper and show to the camera, so your signature fits inside the white box and click the Take Snapshot button. Your signature will appear in the Signature Wizard and ready for use.",
+  IMAGE_SIGNATURE_WEBCAM_TEXT: "Sign the paper and show to the camera, so your signature fits inside the white box and click Take. Your signature will appear in the Signature Wizard and ready for use.",
   IMAGE_SIGNATURE_MOBILE_DRAW_WELCOME_CONTENT_TITLE: "Welcome to PDFfiller Mobile Signature.",
   IMAGE_SIGNATURE_MOBILE_DRAW_WELCOME_CONTENT_TEXT: "Sign the screen with your finger on the next page, and click Done to save your signature to the Signature Wizard.",
   IMAGE_SIGNATURE_LOADER_SIGN: "Awaiting Signature...",
@@ -75,9 +75,7 @@ $json =<<<CONFIG
   IMAGE_SIGNATURE_CONGRATULATIONS_TITLE: "Congratulations!",
   IMAGE_SIGNATURE_CONGRATULATIONS_DESCRIPTION: "Your signature has been successfully saved to your account.",
   IMAGE_SIGNATURE_DRAW_CONTENT_TEXT: "Draw your signature below, use the toolbar to make any desired changes, then click Save and Use to continue.",
-
 CONFIG;
-
 $arr = explode("\",\n", $json);
 $consts = [];
 foreach ( $arr as $v ) {
@@ -88,10 +86,8 @@ foreach ( $arr as $v ) {
 }
 Header("Content-type: text/plain;charset=utf8");
 $res = var_export($consts,true );
-
 $res = preg_replace("/[0-9]+\s=>\s\n/ims", "", $res);
 $res = preg_replace("/array\s\(/ims", "[", $res);
 $res = preg_replace("/\)\,/ims", "],", $res);
 $res = preg_replace("/\)$/ims", "];", $res);
-
 echo  "\$migrationsConstants = " . $res;
