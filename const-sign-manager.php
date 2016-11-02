@@ -10,6 +10,7 @@ $json =<<<CONFIG
   IMAGE_SIGNATURE_INITIAL_IMAGE_HEADER_TITLE: "Your Saved Images",
   IMAGE_SIGNATURE_UPLOADER_HEADER_TITLE: "Upload Your Image",
   IMAGE_SIGNATURE_CAPTURE_HEADER_TITLE: "Capture Your Image",
+  IMAGE_SIGNATURE_CAPTURE_TEXT: "The program identifies your computer’s camera, and you can see a live preview of the image that you can use, and decide when to capture an image.",
   IMAGE_SIGNATURE_UPLOADER_TEXT: "Uploading an Image",
   IMAGE_SIGNATURE_BIG_FOOTER_BTN_UPLOADER_TITLE: "Upload Your Image",
   IMAGE_SIGNATURE_BIG_FOOTER_BTN_UPLOADER_DESC: "Use this option to upload an image from your computer.",
