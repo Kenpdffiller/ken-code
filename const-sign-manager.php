@@ -73,7 +73,7 @@ $json =<<<CONFIG
   IMAGE_SIGNATURE_MOBILE_DRAW_EMAIL_PLACEHOLDER: "Email",
   IMAGE_SIGNATURE_CONGRATULATIONS_TITLE: "Congratulations!",
   IMAGE_SIGNATURE_CONGRATULATIONS_DESCRIPTION: "Your signature has been successfully saved to your account.",
-  IMAGE_SIGNATURE_DRAW_CONTENT_TEXT: "Once you’ve drawn the signature, you can adjust the color and width of your signature, undo and redo your last changes or clear the window and start drawing again. When you’re done drawing the signature, just click Save and Use button and your signature will automatically appear in the Signature Wizard and ready for use.",
+  IMAGE_SIGNATURE_DRAW_CONTENT_TEXT: "Draw your signature below, use the toolbar to make any desired changes, then click Save and Use to continue.",
 
 CONFIG;
 
