@@ -1,7 +1,7 @@
 <?php
 $json =<<<CONFIG
   IMAGE_SIGNATURE_BACK: "Back",
-  IMAGE_SIGNATURE_UPLOADER_BTN: "Select an Image",
+  IMAGE_SIGNATURE_UPLOADER_BTN: "Browse Your Images",
   IMAGE_SIGNATURE_TITLE_UPLOADER: "Drag and Drop Your Image Here",
   IMAGE_SIGNATURE_DESC_UPLOADER: "Use the button below to upload your signature to the Signature Wizard. PDFfiller supports <b>JPG</b>, <b>GIF</b> and <b>PNG</b> formats. Just so you know, Max file size: 15 Mb.",
   IMAGE_SIGNATURE_BTN_NEXT: "Next",
