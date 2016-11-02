@@ -29,7 +29,7 @@ $json =<<<CONFIG
   IMAGE_SIGNATURE_BTN_SAVE_AND_USE: "Save and Use",
   IMAGE_SIGNATURE_BTN_ADD_NEW_SING: "Add New Signature",
   IMAGE_SIGNATURE_TYPE_PREVIEW_TITLE: "type",
-  IMAGE_SIGNATURE_TYPE_PREVIEW_TEXT: "Easy way to create your signature or initials. <b>Type</b> your full name, and click <b>Sign</b>. Your signature will appear in a handwritten font style in the Signature Wizard and ready for use.",
+  IMAGE_SIGNATURE_TYPE_PREVIEW_TEXT: "<b>Type</b> your full name below, and click <b>Sign</b> to proceed. Your signature will appear in a handwritten font style and ready for use.",
   IMAGE_SIGNATURE_TYPE_LIST_DRAW_TITLE: "<b>Draw</b>",
   IMAGE_SIGNATURE_TYPE_LIST_DRAW_DESCRIPTION: "Easily draw your signature using the mouse or trackpad",
   IMAGE_SIGNATURE_TYPE_LIST_QR_TITLE: "<b>Scan a QR Code</b>",
